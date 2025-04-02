@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cricket Club</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" >
+	 <link href="fonts/css/fontawesome.min.css" rel="stylesheet" >
+	<link href="fonts/css/brands.min.css" rel="stylesheet" />
+    <link href="fonts/css/solid.min.css" rel="stylesheet" />
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/matches.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+	<link href="css/flag-icons.css" rel="stylesheet">
+
+</head>
+<body>
+
+<section id="top" class="pt-2 pb-2 bg-black">
+ <div class="container-xl">
+  <div class="row top_1">
+    <div class="col-md-6">
+	 <div class="top_1_left mt-2">
+	  <ul class="mb-0  font_13">
+	   <li class="me-3 d-inline-block"><a class="text-white link" href="#"><i class="fa fa-trophy col_yell me-1"></i> Cwc 2024</a></li>
+	   <li class="d-inline-block"><a class="text-white link" href="#"><i class="fa fa-trophy col_yell me-1"></i> Champions Trophy</a></li>
+	  </ul>
+	 </div>
+	</div>
+	<div class="col-md-6">
+	 <div class="top_1_right text-end">
+	   <ul class="mb-0 font_13 social_link">
+	   <li class="me-3 text-white d-inline-block">Follow Us</li>
+	   <li class="me-2 text-white d-inline-block"><a class="d-block bg_grey text-white rounded-3 text-center fs-6 bg_yell_hover" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+	   <li class="me-2 text-white d-inline-block"><a class="d-block bg_grey text-white rounded-3 text-center fs-6 bg_yell_hover" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+	   <li class="me-2 text-white d-inline-block"><a class="d-block bg_grey text-white rounded-3 text-center fs-6 bg_yell_hover" href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+	  </ul>
+	 </div>
+	</div>
+  </div>
+ </div>
+</section>
+
+<section id="header">
+   <nav class="navbar navbar-expand-lg navbar-light w-100 border-bottom">
+      <div class="container-xl">
+          <b class="logo"><a class="fs-4 family_1" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: #ffbe07;transform: ;msFilter: ;"><path d="m3.67 16.26.54.53-.62.61a9 9 0 0 0 .84 1.11L18.51 4.42a10.93 10.93 0 0 0-1.1-.83l-.62.61-.53-.53.48-.48A10 10 0 0 0 3.2 16.74zM14.86 5.07l.53.53L14 7l-.53-.53zm-2.79 2.8.52.53-1.39 1.4-.53-.53zm-2.8 2.8.53.53-1.4 1.39-.53-.53zm-2.8 2.79L7 14l-1.4 1.4-.53-.53zm.12 6.95.62-.61.53.53-.48.48A10 10 0 0 0 20.8 7.26l-.47.48-.54-.53.62-.61a9 9 0 0 0-.84-1.11L5.49 19.58a10.93 10.93 0 0 0 1.1.83zM18.4 8.61l.53.53-1.4 1.4L17 10zm-2.8 2.8.53.53-1.4 1.39-.53-.53zm-2.8 2.79.53.53-1.39 1.4-.54-.53zM10 17l.53.53-1.4 1.4-.53-.53z"></path></svg>ACME<br> <span class="font_12 fw-normal">Cricket Club</span></a></b>
+         <button class="navbar-toggler offcanvas-nav-btn  ms-auto me-3" type="button">
+            <img src="image/icons-svg/list.svg" width="40" height="40" alt="Open TemplateOnweb website menu"/>
+         </button>
+         <div class="offcanvas offcanvas-start offcanvas-nav" style="width: 20rem">
+            <div class="offcanvas-header shadow">
+			    <b class="logo"><a class="fs-4 family_1" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: #ffbe07;transform: ;msFilter: ;"><path d="m3.67 16.26.54.53-.62.61a9 9 0 0 0 .84 1.11L18.51 4.42a10.93 10.93 0 0 0-1.1-.83l-.62.61-.53-.53.48-.48A10 10 0 0 0 3.2 16.74zM14.86 5.07l.53.53L14 7l-.53-.53zm-2.79 2.8.52.53-1.39 1.4-.53-.53zm-2.8 2.8.53.53-1.4 1.39-.53-.53zm-2.8 2.79L7 14l-1.4 1.4-.53-.53zm.12 6.95.62-.61.53.53-.48.48A10 10 0 0 0 20.8 7.26l-.47.48-.54-.53.62-.61a9 9 0 0 0-.84-1.11L5.49 19.58a10.93 10.93 0 0 0 1.1.83zM18.4 8.61l.53.53-1.4 1.4L17 10zm-2.8 2.8.53.53-1.4 1.39-.53-.53zm-2.8 2.79.53.53-1.39 1.4-.54-.53zM10 17l.53.53-1.4 1.4-.53-.53z"></path></svg> ACME <br> <span class="font_12 fw-normal">Cricket Club</span></a></b>
+               <img src="image/icons-svg/x.svg" width="40" height="40" class="ms-auto" data-bs-dismiss="offcanvas" aria-label="Close" alt="Close TemplateOnweb website menu"/>
+			   
+            </div>
+            <div class="offcanvas-body pt-0 align-items-center">
+               <ul class="navbar-nav align-items-lg-center ms-auto">
+			      <li class="nav-item"> 
+				      <a class="nav-link dropdown-toggle" href="index.html" title="Visit home page">
+					  Home
+					  </a>
+				  </li>
+				  <li class="nav-item"> 
+				      <a class="nav-link dropdown-toggle" href="about.html" title="Visit home page">
+					  About
+					  </a>
+				  </li>
+				  
+				 <li class="nav-item dropdown drop_border">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Matches<img src="image/icons-svg/chevron-down.svg" width="15" height="15" alt="Submenu open/close icon">
+          </a>
+          <ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="matches.html"> Live</a></li>
+			<li><a class="dropdown-item border-0" href="scorecard.html"> Scorecard</a></li>
+          </ul>
+        </li>
+				  
+				  <li class="nav-item"> 
+				      <a class="nav-link dropdown-toggle" href="stats.html" title="Visit home page">
+					  Stats
+					  </a>
+				  </li>
+                  
+		
+		           <li class="nav-item dropdown drop_border">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Product<img src="image/icons-svg/chevron-down.svg" width="15" height="15" alt="Submenu open/close icon">
+          </a>
+          <ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="shop.html"> Product</a></li>
+			<li><a class="dropdown-item" href="detail.html"> Product Detail</a></li>
+			<li><a class="dropdown-item" href="cart.html"> Shopping Cart</a></li>
+			<li><a class="dropdown-item border-0" href="checkout.html"> Checkout</a></li>
+          </ul>
+        </li>
+		
+		         <li class="nav-item dropdown drop_border">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            News<img src="image/icons-svg/chevron-down.svg" width="15" height="15" alt="Submenu open/close icon">
+          </a>
+          <ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="news.html"> News</a></li>
+			<li><a class="dropdown-item border-0" href="news_detail.html"> News Detail</a></li>
+          </ul>
+        </li>
+		
+				  
+				  <li class="nav-item"> 
+				      <a class="nav-link dropdown-toggle" href="contact.html" title="Visit home page">
+					 Contact Us
+					  </a>
+				  </li>
+				  
+               </ul>
+			   <ul class="navbar-nav align-items-lg-center ms-auto">
+			        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle drop_togn nav_hide fs-4 mt-1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-shopping-cart"></i>
+          </a>
+          <ul class="dropdown-menu drop_cart shadow rounded-0 border-0" aria-labelledby="navbarDropdown" style="">
+						<li>
+						 <div class="drop_1i row">
+						  <div class="col-md-6 col-6">
+						   <div class="drop_1il"><h5 class="fs-6">2 ITEMS</h5></div>
+						  </div>
+						  <div class="col-md-6 col-6">
+						   <div class="drop_1il text-end"><h5 class="fs-6"><a href="cart.html">VIEW CART</a></h5></div>
+						  </div>
+						 </div>
+						 <div class="drop_1i1 row">
+						  <div class="col-md-6 col-6">
+						   <div class="drop_1i1l"><h6 class="font_14"><a href="#">Nulla Quis</a> <br> <span class="fw-normal d-inline-block mt-1 font_12">1x - $89.00</span></h6></div>
+						  </div>
+						  <div class="col-md-4 col-4">
+						   <div class="drop_1i1r"><a href="#"><img src="image/47.jpg" class="img-fluid" alt="abc"></a></div>
+						  </div>
+						  <div class="col-md-2 col-2">
+						   <div class="drop_1i1l text-end"><h6> <span><i class="fa fa-trash"></i></span></h6></div>
+						  </div>
+						 </div>
+						 <div class="drop_1i1 row">
+						  <div class="col-md-6 col-6">
+						   <div class="drop_1i1l"><h6 class="font_14"><a href="#">Eget Nulla</a> <br> <span class="fw-normal d-inline-block mt-1 font_12">1x - $49.00</span></h6></div>
+						  </div>
+						  <div class="col-md-4 col-4">
+						   <div class="drop_1i1r"><a href="#"><img src="image/48.jpg" class="img-fluid" alt="abc"></a></div>
+						  </div>
+						  <div class="col-md-2 col-2">
+						   <div class="drop_1i1l text-end"><h6> <span><i class="fa fa-trash"></i></span></h6></div>
+						  </div>
+						 </div>
+						 <div class="drop_1i2 row">
+						  <div class="col-md-6 col-6">
+						   <div class="drop_1il"><h5 class="fs-6">TOTAL</h5></div>
+						  </div>
+						  <div class="col-md-6 col-6">
+						   <div class="drop_1il text-end"><h5 class="fs-6">$142.00</h5></div>
+						  </div>
+						 </div>
+						 <div class="drop_1i3 text-center row">
+						  <div class="col-md-12 col-12">
+						    <ul class="mb-0">
+							 <li class="d-inline-block mx-1"><a class="button px-3 pt-2 pb-2 font_14" href="#">View Order</a></li>
+							 <li class="d-inline-block mx-1"><a class="button_1 px-3 pb-2 pt-2 font_14" href="#">Checkout</a></li>
+							</ul>
+						  </div>
+						 </div>
+						</li>
+					  </ul>
+        </li>
+				    <li class="nav-item dropdown">
+          <a class="dropdown-toggle nav_hide nav-link fs-4 mt-1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-search"></i>
+          </a>
+		<ul class="dropdown-menu drop_search p-3 shadow" aria-labelledby="navbarDropdown" style="">
+		<form class="navbar-form" role="search">
+		<div class="input-group">
+			<input type="text" class="form-control font_14" placeholder="Search Keyword">
+			<span class="input-group-btn">
+				<button class="btn btn-primary bg_yell border-0 rounded-0 p-2 px-3" type="button">
+					<i class="fa fa-search"></i> </button>
+			</span>
+		</div>
+		</form>
+		</ul>
+        </li>
+                 </ul>
+            </div>
+         </div>    
+		 
+         </div>
+      </div>
+   </nav>
+</section>
+
+<section id="center" class="center_match">
+ <div class="center_om bg_back">
+   <div class="container-xl">
+    <div class="row center_o1">
+     <div class="col-md-12">
+	   <h1 class="text-white">MATCHES</h1>
+	   <h6 class="mb-0 col_yell"><a class="text-light" href="#">HOME</a> <span class="text-white-50 mx-2">/</span> MATCHES</h6>
+	 </div>
+   </div>
+ </div>
+ </div>
+</section>
+
+<section id="match" class="pt-5 pb-5">
+ <div class="container-xl">
+  <div class="row match_1 text-center leader_1 mb-4">
+    <div class="col-md-12">
+	  <ul class="fs-6 fw-bold nav nav-tabs border-0 justify-content-center">
+	   <li class="me-2 mt-1 mb-1 d-inline-block"><a class="border_light d-block p-2 px-4 rounded-3 active" data-bs-toggle="tab" aria-expanded="true" href="#profile1">LIVE & UPCOMING</a></li>
+	   <li class="me-2 mt-1 mb-1 d-inline-block"><a class="border_light d-block p-2 px-4 rounded-3" data-bs-toggle="tab" aria-expanded="true" href="#profile2">COMPLETED</a></li>
+	 </ul>
+	</div>
+  </div>
+  <div class="row match_2">
+    <div class="col-md-12">
+	  <div class="tab-content">
+	    <div class="tab-pane active" id="profile1">
+		  <div class="profile1_inner row row-cols-1 row-cols-sm-2  row-cols-md-4">
+		    <div class="col">
+			 <div class="profile1_inner_left">
+			  <b class="d-block mb-2">Tournaments & Series</b>
+				<select class="form-select" aria-label="Default select example">
+				<option selected="">All Series</option>
+				<option value="1">Paytm Series</option>
+				<option value="2">Bgt Trophy</option>
+				<option value="3">Compact Cup</option>
+				<option value="4">Asia Cup</option>
+				<option value="5">Tri Series</option>
+				</select>
+			 </div>
+			</div>
+			<div class="col">
+			 <div class="profile1_inner_left">
+			  <b class="d-block mb-2">Teams</b>
+				<select class="form-select" aria-label="Default select example">
+				<option selected="">All Teams</option>
+				<option value="1">England</option>
+				<option value="2">Pakistan</option>
+				<option value="3">Canada</option>
+				<option value="4">Australia</option>
+				<option value="5">Sri Lanka</option>
+				</select>
+			 </div>
+			</div>
+			<div class="col">
+			 <div class="profile1_inner_left">
+			  <b class="d-block mb-2">Format</b>
+				<select class="form-select" aria-label="Default select example">
+				<option selected="">All Format</option>
+				<option value="1">ODI</option>
+				<option value="2">T20 </option>
+				<option value="3">Test</option>
+				<option value="4">T10</option>
+				<option value="5">Hundred</option>
+				</select>
+			 </div>
+			</div>
+			<div class="col">
+			 <div class="profile1_inner_left">
+			  <b class="d-block mb-2">Location</b>
+				<select class="form-select" aria-label="Default select example">
+				<option selected="">All Location</option>
+				<option value="1">India</option>
+				<option value="2">London </option>
+				<option value="3">Pakistan</option>
+				<option value="4">Sri Lanka</option>
+				<option value="5">Sydney</option>
+				</select>
+			 </div>
+			</div>
+		  </div>     
+		  <div class="profile1_inner1 mt-4">
+		   <h2>LIVE</h2>
+		   <div class="profile1_inner1_inner row row-cols-1 row-cols-sm-2  row-cols-md-3 bg-black pt-4 pb-4 mx-0 mt-4 px-3">
+		     <div class="col">
+			   <div class="profile1_inner1_inner_left mt-5">
+			     <h6 class="text-white font_14 mb-1">ICC Men's ODI World Cup 2023</h6>
+				 <b class="text-white d-block fs-4">07:55 (YOUR TIME)</b>
+				  <h6 class="text-white font_14 mb-1 mt-4">Perth Stadium, Perth</h6>
+				 <b class="text-white d-block font_14">MAY, MON 23 , 7:30 pm IST</b>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_center mt-5">
+				  <ul class="mb-0">
+				   <li class="d-flex fw-bold">
+				   <span class="fi fi-au me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5 text-white">Australia 170/6</b> <span class="text-muted font_14">(20.0 OV)</span></a></span>
+				   </li>
+					 <li class="d-flex fw-bold mt-3">
+				   <span class="fi fi-in me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5 text-white">India 140/6</b> <span class="text-muted font_14">(17.0 OV)</span></a></span>
+				   </li>
+				  </ul>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_right">
+				  <div class="news_1_left1 position-relative">
+			<div class="news_1_left1_inner">
+			  <a href="scorecard.html"><img src="image/22.jpg" alt="abc" class="img-fluid"></a>
+			</div>
+			<div class="news_1_left1_innern position-absolute bottom-0 p-3">
+			  <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#templateVideoModal"><span class="d-inline-block bg_yell  p-2 px-3 rounded-3 fs-6"><i class="fa fa-play me-1 align-middle"></i> Stream</span></a>
+			</div>
+		</div>
+			   </div>
+			 </div>
+		   </div>
+		   <div class="profile1_inner1_inner row row-cols-1 row-cols-sm-2  row-cols-md-3 bg-black pt-4 pb-4 mx-0 mt-4 px-3">
+		     <div class="col">
+			   <div class="profile1_inner1_inner_left mt-5">
+			     <h6 class="text-white font_14 mb-1">ICC Men's ODI World Cup 2023</h6>
+				 <b class="text-white d-block fs-4">09:35 (YOUR TIME)</b>
+				  <h6 class="text-white font_14 mb-1 mt-4">Perth Stadium, Perth</h6>
+				 <b class="text-white d-block font_14">MAY, MON 24 , 9:30 pm IST</b>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_center mt-5">
+				  <ul class="mb-0">
+				   <li class="d-flex fw-bold">
+				   <span class="fi fi-gb-eng me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5 text-white">England 180/3</b> <span class="text-muted font_14">(20.0 OV)</span></a></span>
+				   </li>
+					 <li class="d-flex fw-bold mt-3">
+				   <span class="fi fi-nz me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5 text-white">NZ 130/7</b> <span class="text-muted font_14">(15.0 OV)</span></a></span>
+				   </li>
+				  </ul>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_right">
+				  <div class="news_1_left1 position-relative">
+			<div class="news_1_left1_inner">
+			  <a href="scorecard.html"><img src="image/23.jpg" alt="abc" class="img-fluid"></a>
+			</div>
+			<div class="news_1_left1_innern position-absolute bottom-0 p-3">
+			  <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#templateVideoModal"><span class="d-inline-block bg_yell  p-2 px-3 rounded-3 fs-6"><i class="fa fa-play me-1 align-middle"></i> Stream</span></a>
+			</div>
+		</div>
+			   </div>
+			 </div>
+		   </div>
+		    <h2 class="mt-4">UPCOMING</h2>
+			<div class="profile1_inner1_inner row row-cols-1 row-cols-sm-2  row-cols-md-3  pt-4 pb-4 mx-0 mt-4 px-3 border_light bg_light">
+		     <div class="col">
+			   <div class="profile1_inner1_inner_left mt-5">
+			     <h6 class="font_14 mb-1">ICC Men's ODI World Cup 2023</h6>
+				 <b class="d-block fs-4">07:55 (YOUR TIME)</b>
+				  <h6 class="font_14 mb-1 mt-4">Perth Stadium, Perth</h6>
+				 <b class="d-block font_14">MAY, MON 23 , 7:30 pm IST</b>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_center mt-5">
+				  <ul class="mb-0">
+				   <li class="d-flex fw-bold">
+				   <span class="fi fi-au me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5">Australia 170/6</b> <span class="text-muted font_14">(20.0 OV)</span></a></span>
+				   </li>
+					 <li class="d-flex fw-bold mt-3">
+				   <span class="fi fi-in me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5">India 140/6</b> <span class="text-muted font_14">(17.0 OV)</span></a></span>
+				   </li>
+				  </ul>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_right">
+				  <div class="news_1_left1 position-relative">
+			<div class="news_1_left1_inner">
+			  <a href="scorecard.html"><img src="image/24.jpg" alt="abc" class="img-fluid"></a>
+			</div>
+			<div class="news_1_left1_innern position-absolute bottom-0 p-3">
+			  <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#templateVideoModal"><span class="d-inline-block bg_yell  p-2 px-3 rounded-3 fs-6"><i class="fa fa-play me-1 align-middle"></i> Stream</span></a>
+			</div>
+		</div>
+			   </div>
+			 </div>
+		   </div>
+		   <div class="profile1_inner1_inner row row-cols-1 row-cols-sm-2  row-cols-md-3  pt-4 pb-4 mx-0 mt-4 px-3 border_light bg_light">
+		     <div class="col">
+			   <div class="profile1_inner1_inner_left mt-5">
+			     <h6 class="font_14 mb-1">ICC Men's ODI World Cup 2023</h6>
+				 <b class="d-block fs-4">07:55 (YOUR TIME)</b>
+				  <h6 class="font_14 mb-1 mt-4">Perth Stadium, Perth</h6>
+				 <b class="d-block font_14">MAY, MON 23 , 7:30 pm IST</b>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_center mt-5">
+				  <ul class="mb-0">
+				   <li class="d-flex fw-bold">
+				   <span class="fi fi-gb-eng me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5">England 180/3 </b> <span class="text-muted font_14">(20.0 OV)</span></a></span>
+				   </li>
+					 <li class="d-flex fw-bold mt-3">
+				   <span class="fi fi-nz me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5">NZ 130/7 </b> <span class="text-muted font_14">(15.0 OV)</span></a></span>
+				   </li>
+				  </ul>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_right">
+				  <div class="news_1_left1 position-relative">
+			<div class="news_1_left1_inner">
+			  <a href="scorecard.html"><img src="image/25.jpg" alt="abc" class="img-fluid"></a>
+			</div>
+			<div class="news_1_left1_innern position-absolute bottom-0 p-3">
+			  <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#templateVideoModal"><span class="d-inline-block bg_yell  p-2 px-3 rounded-3 fs-6"><i class="fa fa-play me-1 align-middle"></i> Stream</span></a>
+			</div>
+		</div>
+			   </div>
+			 </div>
+		   </div>
+		   <div class="profile1_inner1_inner row row-cols-1 row-cols-sm-2  row-cols-md-3  pt-4 pb-4 mx-0 mt-4 px-3 border_light bg_light">
+		     <div class="col">
+			   <div class="profile1_inner1_inner_left mt-5">
+			     <h6 class="font_14 mb-1">ICC Men's ODI World Cup 2023</h6>
+				 <b class="d-block fs-4">07:55 (YOUR TIME)</b>
+				  <h6 class="font_14 mb-1 mt-4">Perth Stadium, Perth</h6>
+				 <b class="d-block font_14">MAY, MON 23 , 7:30 pm IST</b>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_center mt-5">
+				  <ul class="mb-0">
+				   <li class="d-flex fw-bold">
+				   <span class="fi fi-bd me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5">BAN 180/3 </b> <span class="text-muted font_14">(20.0 OV)</span></a></span>
+				   </li>
+					 <li class="d-flex fw-bold mt-3">
+				   <span class="fi fi-pk me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5">PAK 130/7 </b> <span class="text-muted font_14">(15.0 OV)</span></a></span>
+				   </li>
+				  </ul>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_right">
+				  <div class="news_1_left1 position-relative">
+			<div class="news_1_left1_inner">
+			  <a href="scorecard.html"><img src="image/26.jpg" alt="abc" class="img-fluid"></a>
+			</div>
+			<div class="news_1_left1_innern position-absolute bottom-0 p-3">
+			  <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#templateVideoModal"><span class="d-inline-block bg_yell  p-2 px-3 rounded-3 fs-6"><i class="fa fa-play me-1 align-middle"></i> Stream</span></a>
+			</div>
+		</div>
+			   </div>
+			 </div>
+		   </div>
+		  </div>
+	    </div>
+		<div class="tab-pane" id="profile2">
+		  <div class="profile1_inner row row-cols-1 row-cols-sm-2  row-cols-md-4">
+		    <div class="col">
+			 <div class="profile1_inner_left">
+			  <b class="d-block mb-2">Tournaments & Series</b>
+				<select class="form-select" aria-label="Default select example">
+				<option selected="">All Series</option>
+				<option value="1">Paytm Series</option>
+				<option value="2">Bgt Trophy</option>
+				<option value="3">Compact Cup</option>
+				<option value="4">Asia Cup</option>
+				<option value="5">Tri Series</option>
+				</select>
+			 </div>
+			</div>
+			<div class="col">
+			 <div class="profile1_inner_left">
+			  <b class="d-block mb-2">Teams</b>
+				<select class="form-select" aria-label="Default select example">
+				<option selected="">All Teams</option>
+				<option value="1">England</option>
+				<option value="2">Pakistan</option>
+				<option value="3">Canada</option>
+				<option value="4">Australia</option>
+				<option value="5">Sri Lanka</option>
+				</select>
+			 </div>
+			</div>
+			<div class="col">
+			 <div class="profile1_inner_left">
+			  <b class="d-block mb-2">Format</b>
+				<select class="form-select" aria-label="Default select example">
+				<option selected="">All Format</option>
+				<option value="1">ODI</option>
+				<option value="2">T20 </option>
+				<option value="3">Test</option>
+				<option value="4">T10</option>
+				<option value="5">Hundred</option>
+				</select>
+			 </div>
+			</div>
+			<div class="col">
+			 <div class="profile1_inner_left">
+			  <b class="d-block mb-2">Location</b>
+				<select class="form-select" aria-label="Default select example">
+				<option selected="">All Location</option>
+				<option value="1">India</option>
+				<option value="2">London </option>
+				<option value="3">Pakistan</option>
+				<option value="4">Sri Lanka</option>
+				<option value="5">Sydney</option>
+				</select>
+			 </div>
+			</div>
+		  </div>     
+		  <div class="profile1_inner1">
+			<h5 class="bg-black text-white pt-2 pb-2 text-center px-3 mt-4 mb-0">India won by 4 wickets</h5>
+			<div class="profile1_inner1_inner row row-cols-1 row-cols-sm-2  row-cols-md-3  pt-4 pb-4 mx-0 px-3 border_light bg_light">
+		     <div class="col">
+			   <div class="profile1_inner1_inner_left mt-5">
+			     <h6 class="font_14 mb-1">ICC Men's ODI World Cup 2023</h6>
+				 <b class="d-block fs-4">07:55 (YOUR TIME)</b>
+				  <h6 class="font_14 mb-1 mt-4">Perth Stadium, Perth</h6>
+				 <b class="d-block font_14">MAY, MON 23 , 7:30 pm IST</b>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_center mt-5">
+				  <ul class="mb-0">
+				   <li class="d-flex fw-bold">
+				   <span class="fi fi-au me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5">Australia 170/6</b> <span class="text-muted font_14">(20.0 OV)</span></a></span>
+				   </li>
+					 <li class="d-flex fw-bold mt-3">
+				   <span class="fi fi-in me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5">India 171/6</b> <span class="text-muted font_14">(19.5 OV)</span></a></span>
+				   </li>
+				  </ul>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_right">
+				  <div class="news_1_left1 position-relative">
+			<div class="news_1_left1_inner">
+			  <a href="scorecard.html"><img src="image/24.jpg" alt="abc" class="img-fluid"></a>
+			</div>
+			<div class="news_1_left1_innern position-absolute bottom-0 p-3">
+			  <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#templateVideoModal"><span class="d-inline-block bg_yell  p-2 px-3 rounded-3 fs-6"><i class="fa fa-play me-1 align-middle"></i> Stream</span></a>
+			</div>
+		</div>
+			   </div>
+			 </div>
+		   </div>
+		   <h5 class="bg-black text-white pt-2 pb-2 text-center px-3 mt-4 mb-0">NZ won by 3 wickets</h5>
+		   <div class="profile1_inner1_inner row row-cols-1 row-cols-sm-2  row-cols-md-3  pt-4 pb-4 mx-0 px-3 border_light bg_light">
+		     <div class="col">
+			   <div class="profile1_inner1_inner_left mt-5">
+			     <h6 class="font_14 mb-1">ICC Men's ODI World Cup 2023</h6>
+				 <b class="d-block fs-4">07:55 (YOUR TIME)</b>
+				  <h6 class="font_14 mb-1 mt-4">Perth Stadium, Perth</h6>
+				 <b class="d-block font_14">MAY, MON 23 , 7:30 pm IST</b>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_center mt-5">
+				  <ul class="mb-0">
+				   <li class="d-flex fw-bold">
+				   <span class="fi fi-gb-eng me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5">England 180/3 </b> <span class="text-muted font_14">(20.0 OV)</span></a></span>
+				   </li>
+					 <li class="d-flex fw-bold mt-3">
+				   <span class="fi fi-nz me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5">NZ 182/7 </b> <span class="text-muted font_14">(18.0 OV)</span></a></span>
+				   </li>
+				  </ul>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_right">
+				  <div class="news_1_left1 position-relative">
+			<div class="news_1_left1_inner">
+			  <a href="scorecard.html"><img src="image/25.jpg" alt="abc" class="img-fluid"></a>
+			</div>
+			<div class="news_1_left1_innern position-absolute bottom-0 p-3">
+			  <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#templateVideoModal"><span class="d-inline-block bg_yell  p-2 px-3 rounded-3 fs-6"><i class="fa fa-play me-1 align-middle"></i> Stream</span></a>
+			</div>
+		</div>
+			   </div>
+			 </div>
+		   </div>
+		   <h5 class="bg-black text-white pt-2 pb-2 text-center px-3 mt-4 mb-0">PAK won by 8 wickets</h5>
+		   <div class="profile1_inner1_inner row row-cols-1 row-cols-sm-2  row-cols-md-3  pt-4 pb-4 mx-0  px-3 border_light bg_light">
+		     <div class="col">
+			   <div class="profile1_inner1_inner_left mt-5">
+			     <h6 class="font_14 mb-1">ICC Men's ODI World Cup 2023</h6>
+				 <b class="d-block fs-4">07:55 (YOUR TIME)</b>
+				  <h6 class="font_14 mb-1 mt-4">Perth Stadium, Perth</h6>
+				 <b class="d-block font_14">MAY, MON 23 , 7:30 pm IST</b>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_center mt-5">
+				  <ul class="mb-0">
+				   <li class="d-flex fw-bold">
+				   <span class="fi fi-bd me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5">BAN 150/3 </b> <span class="text-muted font_14">(20.0 OV)</span></a></span>
+				   </li>
+					 <li class="d-flex fw-bold mt-3">
+				   <span class="fi fi-pk me-3" style="width:70px; height:54px;"></span>
+				   <span class="my-auto"><a href="scorecard.html"> <b class="fs-5">PAK 151/2 </b> <span class="text-muted font_14">(17.0 OV)</span></a></span>
+				   </li>
+				  </ul>
+			   </div>
+			 </div>
+			 <div class="col">
+			   <div class="profile1_inner1_inner_right">
+				  <div class="news_1_left1 position-relative">
+			<div class="news_1_left1_inner">
+			  <a href="scorecard.html"><img src="image/26.jpg" alt="abc" class="img-fluid"></a>
+			</div>
+			<div class="news_1_left1_innern position-absolute bottom-0 p-3">
+			  <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#templateVideoModal"><span class="d-inline-block bg_yell  p-2 px-3 rounded-3 fs-6"><i class="fa fa-play me-1 align-middle"></i> Stream</span></a>
+			</div>
+		</div>
+			   </div>
+			 </div>
+		   </div>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+  </div>
+ </div>
+</section>
+
+<section id="footer" class="pt-4 pb-4 bg-black">
+ <div class="container-xl">
+      <div class="footer_1 row mb-4">
+	   <div class="col-md-12">
+		<h4 class="text-white mb-3">Trending Players</h4>
+		<ul class="d-flex flex-wrap mb-0 font_14">
+	   <li class="me-2 mt-1 mb-1"><a class="dark_border d-block p-2 px-3 rounded-pill text-white-50 link" href="#">Rohit Sharma <i class="fa fa-chevron-right font_10 ms-1"></i></a></li>
+	   <li class="me-2 mt-1 mb-1"><a class="dark_border d-block p-2 px-3 rounded-pill text-white-50 link" href="#">Virat Kohli <i class="fa fa-chevron-right font_10 ms-1"></i></a></li>
+	   <li class="me-2 mt-1 mb-1"><a class="dark_border d-block p-2 px-3 rounded-pill text-white-50 link" href="#">Jasprit Bumrah <i class="fa fa-chevron-right font_10 ms-1"></i></a></li>
+	   <li class="me-2 mt-1 mb-1"><a class="dark_border d-block p-2 px-3 rounded-pill text-white-50 link" href="#">Hardik Pandya <i class="fa fa-chevron-right font_10 ms-1"></i></a></li>
+	   <li class="me-2 mt-1 mb-1"><a class="dark_border d-block p-2 px-3 rounded-pill text-white-50 link" href="#">Risabh Pant <i class="fa fa-chevron-right font_10 ms-1"></i></a></li>
+	   <li class="me-2 mt-1 mb-1"><a class="dark_border d-block p-2 px-3 rounded-pill text-white-50 link" href="#">Axar Patel <i class="fa fa-chevron-right font_10 ms-1"></i></a></li>
+	      <li class="me-2 mt-1 mb-1"><a class="dark_border d-block p-2 px-3 rounded-pill text-white-50 link" href="#">Arshdeep Singh <i class="fa fa-chevron-right font_10 ms-1"></i></a></li>
+		     <li class="me-2 mt-1 mb-1"><a class="dark_border d-block p-2 px-3 rounded-pill text-white-50 link" href="#">Kuldeep Yadav <i class="fa fa-chevron-right font_10 ms-1"></i></a></li>
+			    <li class="me-2 mt-1 mb-1"><a class="dark_border d-block p-2 px-3 rounded-pill text-white-50 link" href="#">Sanju Samson <i class="fa fa-chevron-right font_10 ms-1"></i></a></li>
+	 </ul>
+	   </div>
+      </div><hr class="hr_dark">
+      <div class="footer_2 row row-cols-1 row-cols-sm-2  row-cols-md-4">
+	     <div class="col">
+		   <div class="footer_2_left">
+		      <b class="logo"><a class="fs-4 family_1 text-white" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: #ffbe07;transform: ;msFilter: ;"><path d="m3.67 16.26.54.53-.62.61a9 9 0 0 0 .84 1.11L18.51 4.42a10.93 10.93 0 0 0-1.1-.83l-.62.61-.53-.53.48-.48A10 10 0 0 0 3.2 16.74zM14.86 5.07l.53.53L14 7l-.53-.53zm-2.79 2.8.52.53-1.39 1.4-.53-.53zm-2.8 2.8.53.53-1.4 1.39-.53-.53zm-2.8 2.79L7 14l-1.4 1.4-.53-.53zm.12 6.95.62-.61.53.53-.48.48A10 10 0 0 0 20.8 7.26l-.47.48-.54-.53.62-.61a9 9 0 0 0-.84-1.11L5.49 19.58a10.93 10.93 0 0 0 1.1.83zM18.4 8.61l.53.53-1.4 1.4L17 10zm-2.8 2.8.53.53-1.4 1.39-.53-.53zm-2.8 2.79.53.53-1.39 1.4-.54-.53zM10 17l.53.53-1.4 1.4-.53-.53z"></path></svg> ACME <br> <span class="font_12 fw-normal text-white-50">Cricket Club</span></a></b>
+			  <p class="text-white-50 mt-3">Sedut perspiciatis unde omnis iste natus error sitlutem acc usantium doloremque denounce with illo inventore veritatis</p>
+			  <ul class="mb-0 font_13 social_link">
+	   <li class="me-2 text-white d-inline-block"><a class="d-block bg_grey text-white rounded-3 text-center fs-6 bg_yell_hover" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+	   <li class="me-2 text-white d-inline-block"><a class="d-block bg_grey text-white rounded-3 text-center fs-6 bg_yell_hover" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+	   <li class="me-2 text-white d-inline-block"><a class="d-block bg_grey text-white rounded-3 text-center fs-6 bg_yell_hover" href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+	    <li class="me-2 text-white d-inline-block"><a class="d-block bg_grey text-white rounded-3 text-center fs-6 bg_yell_hover" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+	  </ul>
+		   </div>
+		 </div>
+		 <div class="col">
+		   <div class="footer_2_left">
+		     <h5 class="text-white mt-1 mb-3">About</h5>
+			 <ul>
+			  <li><a class="link text-white-50" href="#">Matches</a></li>
+			  <li class="mt-2"><a class="link text-white-50" href="#">Videos</a></li>
+			  <li class="mt-2"><a class="link text-white-50" href="#">Stats</a></li>
+			  <li class="mt-2"><a class="link text-white-50" href="#">News</a></li>
+			  <li class="mt-2"><a class="link text-white-50" href="#">Teams</a></li>
+			  <li class="mt-2"><a class="link text-white-50" href="#">Shop</a></li>
+			 </ul>
+		   </div>
+		 </div>
+		 <div class="col">
+		   <div class="footer_2_left">
+		     <h5 class="text-white mt-1 mb-3">Team</h5>
+			 <ul>
+			  <li><a class="link text-white-50" href="#">England</a></li>
+			  <li class="mt-2"><a class="link text-white-50" href="#">India</a></li>
+			  <li class="mt-2"><a class="link text-white-50" href="#">New Zealand</a></li>
+			  <li class="mt-2"><a class="link text-white-50" href="#">Sri Lanka</a></li>
+			  <li class="mt-2"><a class="link text-white-50" href="#">South Africa</a></li>
+			  <li class="mt-2"><a class="link text-white-50" href="#">Afghanistan</a></li>
+			 </ul>
+		   </div>
+		 </div>
+		 <div class="col">
+		   <div class="footer_2_left">
+		     <h5 class="text-white mt-1 mb-3">Contact Info</h5>
+			 <ul>
+			  <li><a class="link text-white-50" href="#"><i class="fa fa-phone me-1 col_yell"></i> Office: +123 4567 890</a></li>
+			  <li class="mt-3"><a class="link text-white-50" href="#"><i class="fa fa-envelope me-1 col_yell"></i> info@gmail.com</a></li>
+			  <li class="mt-3"><a class="link text-white-50" href="#"><i class="fa fa-clock me-1 col_yell"></i> Opening Hours: 10:00 - 18:00</a></li>
+			  <li class="mt-3"><a class="link text-white-50" href="#"><i class="fa fa-map-marker me-1 col_yell"></i> 36 Nora Dreek, India</a></li>
+			 </ul>
+		   </div>
+		 </div>
+      </div>
+ </div>
+</section>
+
+<section id="footer_bottom" class="pt-3 pb-3 bg-dark">
+ <div class="container-xl">
+  <div class="row row-cols-1 row-cols-sm-1  row-cols-md-2 footer_bottom_1">
+    <div class="col">
+	  <div class="footer_bottom_1_left">
+	    <p class="mb-0 text-white-50">© 2024 Your Website Name. All Rights Reserved | Design by <a class="col_yell fw-bold" href="http://www.templateonweb.com">TemplateOnWeb</a></p>
+	  </div>
+	</div>
+	<div class="col">
+	  <div class="footer_bottom_1_right text-end">
+	   <ul class="mb-0 d-flex  flex-wrap justify-content-end">
+	    <li><a class="text-white-50 link" href="#">Terms of Use</a></li>
+		<li class="mx-2 text-white-50 my-auto">|</li>
+		 <li><a class="text-white-50 link" href="#">Privacy Policy</a></li>
+		<li class="mx-2 text-white-50 my-auto">|</li>
+		 <li><a class="text-white-50 link" href="#">About Us</a></li>
+		<li class="mx-2 text-white-50 my-auto">|</li>
+		 <li><a class="text-white-50 link" href="#">Contact Us</a></li>
+	   </ul>
+	  </div>
+	</div>
+  </div>  
+ </div>
+</section>
+
+<!-- Video Modal -->
+		<div class="modal fade" id="templateVideoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="videoModalLabel">Video View</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body">
+					<!-- YouTube Embed -->
+						<div class="ratio ratio-16x9">
+							<iframe id="youtubeVideo" src="" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" loading="lazy" allowfullscreen></iframe>
+						</div>
+					
+					
+			  </div>
+			  
+			</div>
+		  </div>
+		</div>		
+		<!-- JavaScript to pause the video when modal is closed -->
+		<script>
+		 var templateVideoModal = document.getElementById('templateVideoModal');
+		  templateVideoModal.addEventListener('hide.bs.modal', function () {
+			var iframe = document.getElementById('youtubeVideo');
+			iframe.src = ''; 
+		  });
+		
+		  templateVideoModal.addEventListener('show.bs.modal', function () {
+			var iframe = document.getElementById('youtubeVideo');
+			iframe.src = 'https://www.youtube.com/embed/xHYMdZvV1f0?autoplay=1'; 
+		  });
+		</script>
+
+<script src="https://app.easyparle.com/js/chat_plugin.js" data-bot-id="48704"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/theme.min.js"></script>
+
+</body>
+
+
+
+</html>
